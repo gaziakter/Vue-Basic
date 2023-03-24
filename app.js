@@ -1,13 +1,16 @@
 var app = Vue.createApp({
 	data() {
 		return {
-			msg: "Welcome to Vue jss 3 Bangladesh",
-			turorialinfo: {
-				name: "Akter Hussain",
-				WebsiteLink: "https://gaziakter.com"
-			}
+		}
+	},
+
+	methods: {
+		getCurrentTime (){
+			let cTimd = new Date();
+			return new Date();
 		}
 	}
+
 });
 
 app.mount("#app");
