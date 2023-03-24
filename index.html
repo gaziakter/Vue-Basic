@@ -4,12 +4,18 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>vue js 3</title>
-	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="vue.global.js"></script>
 
 </head>
 <body>
 
-<div id="app">{{msg}}</div>
+<div id="app">
+	<p>{{msg}}</p>
+	<h3>Welcome to Gazi Akter {{turorialinfo.name}}</h3>
+	<a :href="turorialinfo.WebsiteLink">Click here for go to Gazi Akter</a>
+</div>
+
+
 <script src="app.js"></script>
 </body>
 </html>
